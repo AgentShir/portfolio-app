@@ -5,9 +5,12 @@ class References extends Component {
   render() {
     return (
       <div className="container-fluid">
+        <div className="jumbotron">
             <h1>References</h1>
-              <h3>I have no idea who these people are.</h3>
-                <div className="card">
+              <h4>I have no idea who these people are.</h4>
+        </div>
+              <div className="container">
+                <div className="card d-inline bg-info">
                   <div className="card-block">
                     <h4 className="card-title">Manager McManagerson</h4>
                     <h6 className="card-subtitle mb-2 text-muted">Coldstone Creamery, (808)123-4567</h6>
@@ -24,6 +27,7 @@ class References extends Component {
                     <p className="card-text">"Decent singer, too much cowbell."</p>
                   </div>
                 </div>
+              </div>
               <Link to="/">
               <button type="button" className="btn btn-outline-primary">
                 Splash Page/Home

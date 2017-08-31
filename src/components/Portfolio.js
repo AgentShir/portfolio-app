@@ -8,6 +8,7 @@ class Portfolio extends Component {
         <div className="jumbotron">
           <h1 className="display-3">Portfolio</h1>
             <p className="lead">Because I Actually Do Stuff (Or Pretend Very Well)</p>
+        </div>
               <Link to="/about">
                 <button type="button" className="btn btn-outline-primary">
                   This Button Will Take You Somewhere
@@ -18,7 +19,6 @@ class Portfolio extends Component {
                   <p><img src="http://lorempixel.com/700/400/sports" alt="Random images popping up"/></p>
                   <p><img src="http://lorempixel.com/700/400/city" alt="Random images popping up"/></p>
                   <p><img src="http://lorempixel.com/700/400/abstract" alt="Random images popping up"/></p>
-        </div>
       </div>
     );
   }
