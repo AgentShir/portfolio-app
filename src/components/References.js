@@ -5,13 +5,30 @@ class References extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <Link to="/about">
-          <button type="button" className="btn btn-outline-primary">
-            About
-          </button>
-        </Link>
-        <p>Great video, just watch it.</p>
-        <iframe name="youtube" title="fuchigami" width="560" height="315" src="https://www.youtube.com/embed/OS1jBjtHodk?rel=0" frameborder="0" allowfullscreen></iframe>
+            <h1>References</h1>
+              <h3>I have no idea who these people are.</h3>
+                <div className="card">
+                  <div className="card-block">
+                    <h4 className="card-title">Manager McManagerson</h4>
+                    <h6 className="card-subtitle mb-2 text-muted">Coldstone Creamery, (808)123-4567</h6>
+                    <p className="card-text">"I mean, the place didn't burn down."</p>
+                  </div>
+                  <div className="card-block">
+                    <h4 className="card-title">Denise Kimura</h4>
+                    <h6 className="card-subtitle mb-2 text-muted">First Hawaiian Bank, (808)422-2111</h6>
+                    <p className="card-text">"If it weren't for the computer, I don't think that she would be able to count."</p>
+                  </div>
+                  <div className="card-block">
+                    <h4 className="card-title">Aaron Mirafuentes</h4>
+                    <h6 className="card-subtitle mb-2 text-muted">Woodrose (Band Leader), (808)422-2222</h6>
+                    <p className="card-text">"Decent singer, too much cowbell."</p>
+                  </div>
+                </div>
+              <Link to="/">
+              <button type="button" className="btn btn-outline-primary">
+                Splash Page/Home
+              </button>
+              </Link>
       </div>
     );
   }

@@ -21,6 +21,12 @@ class BaseLayout extends Component{
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/contacts">Contacts</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/references">References</NavLink>
+                </li>
               </ul>
             </span>
           </nav>

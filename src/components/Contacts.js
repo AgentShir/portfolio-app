@@ -5,13 +5,13 @@ class Contacts extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <Link to="/about">
+        4650 W. Tropicana Ave.
+        Las Vegas, NV 89103
+        <Link to="/references">
           <button type="button" className="btn btn-outline-primary">
-            About
+            References
           </button>
         </Link>
-        <p>Great video, just watch it.</p>
-        <iframe name="youtube" title="fuchigami" width="560" height="315" src="https://www.youtube.com/embed/OS1jBjtHodk?rel=0" frameborder="0" allowfullscreen></iframe>
       </div>
     );
   }
